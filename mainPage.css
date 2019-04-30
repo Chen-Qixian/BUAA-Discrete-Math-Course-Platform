@@ -27,7 +27,7 @@ body{
     box-sizing: border-box;
 }
 #myStyle .daohang{
-    margin-left: 100px ;
+    margin-left: 15px ;
 }
 #myStyle .daohang li{
     line-height: 50px;
@@ -58,7 +58,7 @@ body{
     position: absolute;
     top: 50%;
     margin-top: -25px;
-    right: 12px;   
+    right: 20px;   
 }
 #myStyle .youcenav li a{
     color: rgb(27, 27, 26);
@@ -143,4 +143,14 @@ body{
     color:yellow;
     font-size: 18px;
     font-weight: bold;
+}
+/* 页脚 */
+.footer{
+    height:30px;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
