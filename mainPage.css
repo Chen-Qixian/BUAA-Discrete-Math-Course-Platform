@@ -6,6 +6,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+    background: url('img/background2.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    opacity: 0.8;
+}
 /* 顶部导航栏左侧样式 */
 #myStyle .navbar-default{
     margin-top: 10px;    
@@ -123,9 +130,17 @@
 }
 /* 课程列表样式 */
 #myStyle  .kclb{
-    margin: 10px;
+    margin: 20px 0 10px 0;
 }
 #myStyle  .ljxx{
     margin: 10px;
     float: right;
+}
+#myStyle  .kclb .panel .panel-heading{
+    background-color:rgb(15, 201, 248);
+}
+#myStyle  .kclb .panel .panel-title{
+    color:yellow;
+    font-size: 18px;
+    font-weight: bold;
 }
