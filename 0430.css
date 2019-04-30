@@ -1,0 +1,131 @@
+/* 
+作者：陈麒先
+时间：2019.4.30
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 顶部导航栏左侧样式 */
+#myStyle .navbar-default{
+    margin-top: 10px;    
+}
+#myStyle .navbar-collapse{
+    position: relative;
+    color: yellow;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: rgb(149, 218, 250);
+    box-sizing: border-box;
+}
+#myStyle .daohang{
+    margin-left: 100px ;
+}
+#myStyle .daohang li{
+    line-height: 50px;
+    border: 3px solid transparent;
+}
+#myStyle .daohang li:hover{
+    border-bottom: 3px solid #424242;
+    color:rgb(27, 27, 26) ;
+    background-color: rgb(149, 218, 250);
+}
+#myStyle .daohang li a{
+    color:rgb(27, 27, 26) ;
+    background-color: rgb(149, 218, 250);
+}
+#myStyle .navbar-brand{
+    font-weight: bold;
+    font-size: 16px;
+    color: yellow;
+}
+/* 站内搜索样式 */
+#myStyle .znss{
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: 170px;
+}
+#myStyle .youcenav{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 12px;   
+}
+#myStyle .youcenav li a{
+    color: rgb(27, 27, 26);
+}
+#myStyle .navbar-nav>.open>a{
+    background-color: transparent;
+}
+#myStyle .navbar-nav>li>.dropdown-menu {
+    margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 2px;
+}
+/* 站标题样式 */
+#myStyle .jumbotron{
+    height: 250px;
+    position: relative;
+    background: url('img/huanying.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#myStyle .jumbotron h1{
+    font-family: KaiTi; 
+    font-weight: bold;
+    margin-top: -10px;
+    color: white;
+}
+#myStyle .jumbotron .huanyingMsg{
+    margin-top: 30px;
+    color: white;
+}
+#myStyle .jumbotron .jinru{
+    width: 100px;
+    height: 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 轮播图样式 */
+#myStyle .slide{
+    border-radius: 3px !important;    
+}
+#myStyle .item{
+    height: 500px;
+}
+#myStyle .item .pic1{
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('img/1.jpg');
+}
+#myStyle .item .pic2{
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('img/2.jpg');
+    border-radius: 3px !important;
+}
+#myStyle .item .pic3{
+    height: 100%;
+    width:100%;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: url('img/3.jpg');
+}
+/* 课程列表样式 */
+#myStyle  .kclb{
+    margin: 10px;
+}
+#myStyle  .ljxx{
+    margin: 10px;
+    float: right;
+}
