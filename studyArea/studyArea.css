@@ -89,3 +89,16 @@
 #myStyle .well{
     background-color: transparent;
 }
+/* 页脚 */
+#myStyle .footer{
+    position: absolute;
+    bottom:-7%;
+    height:30px;
+    width: 100%;
+    color: #999;
+    font-size: 16px;
+    text-align: center;
+    line-height:30px;
+    margin-bottom: 30px;
+    border-top: 1px solid #999;
+}
