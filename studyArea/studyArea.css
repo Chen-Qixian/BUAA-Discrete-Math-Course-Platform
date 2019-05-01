@@ -78,6 +78,12 @@
     color:white;
     box-sizing: border-box;
 }
+#myStyle .panel-body .active:hover{
+    background-color: #5cb85c;
+    border: 1px solid #ccc;
+    color:white;
+    box-sizing: border-box;
+}
 /* 课程介绍样式 */
 #myStyle .kcjs .panel-body{
     text-indent: 2em;
