@@ -1,0 +1,91 @@
+/* 
+作者：陈麒先
+时间：2019.5.1
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 顶部导航栏左侧样式 */
+#myStyle .navbar-default{
+    margin-top: 10px;    
+}
+#myStyle .navbar-collapse{
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    /* background-color: rgb(149, 218, 250); */
+    background-color: #337ab7;
+    box-sizing: border-box;
+}
+#myStyle .daohang{
+    margin-left: 15px ;
+}
+#myStyle .daohang li{
+    line-height: 50px;
+    border: 3px solid transparent;
+}
+#myStyle .daohang li:hover{
+    border-bottom: 3px solid white;
+    color:white ;
+    /* background-color: rgb(149, 218, 250); */
+    background-color: #337ab7;
+}
+#myStyle .daohang li a{
+    color:white ;
+    /* background-color: rgb(149, 218, 250); */
+    background-color: #337ab7;
+}
+/* 站内搜索样式 */
+#myStyle .znss{
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: 170px;
+}
+/* 右侧提示样式 */
+#myStyle .youcenav{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 20px;   
+}
+#myStyle .youcenav li a{
+    color: white;
+}
+#myStyle .navbar-nav>.open>a{
+    background-color: transparent;
+}
+#myStyle .navbar-nav>li>.dropdown-menu{
+    margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    margin-right: -7px;  
+}
+#myStyle .navbar-nav>li>.dropdown-menu .menu-contents{
+    color: black;
+}
+/* 左侧课程导航样式 */
+#myStyle .panel-body .list-group-item:hover{
+    background-color: #337ab7;
+    color:white;
+}
+#myStyle .panel-body .active{
+    background-color: #5cb85c;
+    border: 1px solid #ccc;
+    color:white;
+    box-sizing: border-box;
+}
+/* 课程介绍样式 */
+#myStyle .kcjs .panel-body{
+    text-indent: 2em;
+}
+/* 文本教程样式 */
+#myStyle .tab-content .tab-pane dl dd{
+    text-indent: 2em;
+}
+#myStyle .well{
+    background-color: transparent;
+}
