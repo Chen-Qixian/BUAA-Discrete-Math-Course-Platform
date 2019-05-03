@@ -1,0 +1,188 @@
+/* 
+作者：陈麒先
+时间：2019.5.1
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 顶部导航栏左侧样式 */
+#myStyle .navbar-default{
+    margin-top: 10px;    
+}
+#myStyle .navbar-collapse{
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 3px;
+    /* background-color: rgb(149, 218, 250); */
+    background-color: #337ab7;
+    box-sizing: border-box;
+}
+#myStyle .daohang{
+    margin-left: 15px ;
+}
+#myStyle .daohang li{
+    line-height: 50px;
+    border: 3px solid transparent;
+}
+#myStyle .daohang li:hover{
+    border-bottom: 3px solid white;
+    color:white ;
+    /* background-color: rgb(149, 218, 250); */
+    background-color: #337ab7;
+}
+#myStyle .daohang li a{
+    color:white ;
+    /* background-color: rgb(149, 218, 250); */
+    background-color: #337ab7;
+}
+/* 站内搜索样式 */
+#myStyle .znss{
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: 170px;
+}
+/* 右侧提示样式 */
+#myStyle .youcenav{
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: 20px;   
+}
+#myStyle .youcenav li a{
+    color: white;
+}
+#myStyle .navbar-nav>.open>a{
+    background-color: transparent;
+}
+#myStyle .navbar-nav>li>.dropdown-menu{
+    margin-top: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    margin-right: -7px;  
+}
+#myStyle .navbar-nav>li>.dropdown-menu .menu-contents{
+    color: black;
+}
+/* 左侧题目类型选择按钮样式 */
+#myStyle .category{
+    position: relative;
+    /* border:1px solid #000; */
+    margin-bottom: 30px;
+}
+#myStyle .category .select{
+    height: 100px;
+    width: 150px; 
+    float:left;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#f7dc58, #fea116);
+    border-radius: 10px;
+}
+#myStyle .category .select .inner{
+    background-image: url('background/1.png');
+    background-size: 100%;
+    border-radius: 10px;
+}
+#myStyle .category .select:hover{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15);
+}
+#myStyle .category .fill{
+    height: 100px;
+    width: 150px; 
+    float:left;
+    line-height: 100px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    margin: 0 10px 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#70def7, #106afe);
+    border-radius: 10px;
+}
+#myStyle .category .fill .inner{
+    background-image: url('background/2.png');
+    background-size: 100%;
+    border-radius: 10px;
+}
+#myStyle .category .fill:hover{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15);
+}
+#myStyle .category .code{
+    height: 100px;
+    width: 150px; 
+    float:left;
+    line-height: 100px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    margin: 0 10px 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(#8eeb98, #449d44);
+    border-radius: 10px;
+}
+#myStyle .category .code .inner{
+    background-image: url('background/3.png');
+    background-size: 100%;
+    border-radius: 10px;
+}
+#myStyle .category .code:hover{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.15);
+}
+#myStyle .category .null{
+    height: 100px;
+    width: 150px; 
+}
+/* 左侧题目列表样式 */
+#myStyle .panel-body .list-group-item:hover{
+    background-color: #337ab7;
+    color:white;
+}
+#myStyle .panel-body .active{
+    background-color: #5cb85c;
+    border: 1px solid #ccc;
+    color:white;
+    box-sizing: border-box;
+}
+#myStyle .panel-body .active:hover{
+    background-color: #5cb85c;
+    border: 1px solid #ccc;
+    color:white;
+    box-sizing: border-box;
+}
+#myStyle .well{
+    background-color: transparent;
+}
+/* 右侧我的进展样式 */
+#myStyle .progress{
+    height: 350px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top:40px;  
+    background-color: rgb(229, 235, 248); 
+}
+#myStyle .progress .head{
+    height: 50px;
+    line-height: 50px;
+    text-indent: 1em;
+    font-size: 24px;
+    background-color: #337ab7;
+    color: white;
+    box-sizing: border-box;
+}
+#myStyle .pie_graph{
+    height: 300px;
+    width: 90%;
+    margin: 10px auto;   
+}
