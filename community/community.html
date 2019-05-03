@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>社区【内测版】</title>
+    <link rel="stylesheet" href="community.css">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container" id="myStyle">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <!-- 顶部导航栏 -->
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav daohang">
+                            <li>
+                                <a href="../mainPage.html">首页</a>
+                            </li>
+                            <li>
+                                <a href="../studyArea/studyArea.html">探索</a>
+                            </li>
+                            <li>
+                                <a href="../practice/practice.html">题库</a>
+                            </li>
+                            <li>
+                                <a href="community.html" style="color:yellow;">社区</a>
+                            </li>
+                            <li>
+                                <a href="../exam/exam.html">考核</a>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-left znss" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" />
+                            </div>
+                            <button type="submit" class="btn btn-success">站内搜索</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right youcenav">
+                            <li>
+                                <a href="#">帮助</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    陈麒先
+                                    <strong class="caret"></strong>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#" class="menu-contents">我的作业</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="menu-contents">用户资料</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="menu-contents">账户</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="menu-contents">退出</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="col-md-8 column">
+                    <!-- 社区热点主题 -->
+                    <div class="jumbotron well">
+                        <h2 class="hotspot-topic">
+                            社区热点
+                        </h2>
+                        <div class="col-md-12 column well"><a class="hotspot" href="#">有关组合数学中简单格路问题的讨论</a></div>
+                        <div class="col-md-12 column well"><a class="hotspot" href="#">生成函数的构造与相关应用的总结</a></div>
+                        <p>
+                            <a class="btn btn-primary btn-large" href="#">立即参与！</a>
+                        </p>
+                    </div>
+                    <!-- 讨论主题列表 -->
+                    <div class="panelgroup">
+                        <div class="panel panel-warning">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <div class="prob-icon"></div>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse0">
+                                        题目相关
+                                        <span class="badge">4</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse0" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a href="#bottom" class="list-group-item active">关于集合、关系、函数课后习题的疑问</a>
+                                    <a href="#bottom" class="list-group-item">偏序集的概念怎么理解</a>
+                                    <a href="#bottom" class="list-group-item">如何利用初等计数方法计算相关题目</a>
+                                    <a href="#bottom" class="list-group-item">如何正确运用组合恒等式</a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <div class="func-icon"></div>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                        功能请求
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a href="#bottom" class="list-group-item">关于增加讨论区功能的请求</a>
+                                    <a href="#bottom" class="list-group-item">关于补充教程内容的请求</a>
+                                    <a href="#bottom" class="list-group-item">关于简化题库操作流程的请求</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <div class="overall-icon"></div>
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                        综合讨论
+                                        <span class="badge">3</span>
+                                    </a>
+                                </h3>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a href="#bottom" class="list-group-item">请问老师可以少留点作业吗</a>
+                                    <a href="#bottom" class="list-group-item">期中考试的考试范围是什么呀</a>
+                                    <a href="#bottom" class="list-group-item">师生情~师生情~求老师给过~</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 column">
+                    <!-- 社区提示信息 -->
+                    <div class="alert alert-dismissable alert-danger">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                        <h4>注意!</h4> 
+                        <strong>请务必遵守本站规定！</strong>
+                        社区实行实名制发言，一切讨论帖都将受到监控，违反站内规定者一律封号处理。
+                        <strong>勿谓言之不预也！</strong>
+                    </div>
+                    <!-- 社区统计信息 -->
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                              站内统计数据
+                            </h3>
+                        </div>
+                        <div class="panel-body" style="border-bottom:1px solid #ccc;">
+                            今日访问量：2147483647人次
+                        </div>
+                        <div class="panel-body" style="border-bottom:1px solid #ccc;">
+                            今日新帖：65535篇
+                        </div>
+                        <div class="panel-body" style="border-bottom:1px solid #ccc;">
+                            总讨论帖数：2147483647篇
+                        </div>
+                        <div class="panel-body">
+                            已解决：65535篇
+                        </div>
+                    </div>
+                    <!-- 发帖入口 -->
+                    <a class="btn btn-primary btn-large post" href="#">发新帖</a>
+                </div>
+                <!-- 底部 -->
+                <div class="footer">
+                    Copyright @2019 Powered by Chris.Chen. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../studyArea/studyArea.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
